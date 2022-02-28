@@ -5,6 +5,12 @@ Python Script for printing out summary information
 '''
 import pandas as pd
 import nltk
+<<<<<<< HEAD
+=======
+nltk.download('wordnet')
+nltk.download('punkt')
+nltk.download('omw-1.4')
+>>>>>>> 195f4fea656a9978ecb002b433e7a94410ba838b
 from nltk.stem.porter import PorterStemmer
 from nltk.stem.wordnet import WordNetLemmatizer
 
